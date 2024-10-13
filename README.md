@@ -2,34 +2,31 @@
 
 Add link to project once deployed
 
-Project description
+Duo Teithio is a classical ensemble of two members who need a website to communicate information with audience members and provide a method to enquire about bookings. Potential clients will be able to view biographical information, a gallery of performance recordings, and sign up to a newsletter. For organisations such as concert venues or booking agents, the website should showcase the duo's performance style, professionalism, and performance experience. 
 
-(Add image of webpage on various screen sizes)
+(Add image of final webpage on various screen sizes)
 
 ## User Experience (UX)
 
-  ### User stories
+### User stories
 
-    -   #### Audience Member Goals
-        1. 
+#### Audience Member Goals
+  1. Easily find information about upcoming concerts
+  2. Be able to sign up to a newsletter
 
-    -   #### Indivual Client Goals
-        1. 
+#### Client Goals
+  1. Easily navigate to a booking enquiry form
+  2. View biographical information including performance history
+  3. View recorded to performances to assess suitability of duo for hire
 
-    -   #### Organisation and Agency Goals
-        1. 
-
-  ### Design
-    -   #### Colour Scheme
-        -   glaucous: #5d789cff;
-        -   antiflash-white: #ebebebff;
-        -   cambridge-blue: #6b9987ff;
-        -   eerie-black: #1b2126ff;
-        -   gold-metallic: #d4af37ff;
-    -   #### Typography
-        -   Montserrat font
-    -   #### Imagery
-        -   
+### Design
+#### Colour Scheme
+  ![Colour scheme](./assets/images/colour_scheme.png)
+  This colour scheme was chosen to compliment the main hero image and work with a metallic gold colour to be used as a highlight.
+#### Typography
+  The Montserrat font is used throughout the website. It is modern and stylish while still being easy to read at smaller sizes. Sans Serif is used as a fall back in case of issues with importing the font into the site.
+#### Imagery
+  The main hero image is of Duo Teithio with a gold background and images throughout convey a sense of sophistication.
 
   ### Wireframes
 
@@ -60,6 +57,11 @@ Project description
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
+-   Lighthouse performance screenshot
+
+-   Browser compatibility
+
+-   Responsiveness from 320px to 1400px
   ### Testing User Stories from User Experience (UX) Section
 
   ### Further Testing
