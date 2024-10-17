@@ -1,0 +1,23 @@
+/* colour scheme */
+
+/* Global styles */
+/* importing Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "montserrat", sans-serif;
+}
+
+/* Contact section */
+#contact {
+    background-image: url("../images/sheet_music.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    padding: 2% 5%;
+}
+
+#contact h2 {
+    color: #fff;
+    /* Removing margin so that the button is vertically alligned properly */
+    margin-bottom: 0;
+}
