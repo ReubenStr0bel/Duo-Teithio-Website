@@ -26,13 +26,11 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 #### Typography
   The Montserrat font is used throughout the website. It is modern and stylish while still being easy to read at smaller sizes. Sans Serif is used as a fall back in case of issues with importing the font into the site.
 #### Imagery
-  The main hero image is of Duo Teithio with a gold background and images throughout convey a sense of sophistication.
+  The main hero image is of Duo Teithio with a gold background and images throughout convey a sense of sophistication as well as showcasing the various instruments played by the duo.
 
   ### Wireframes
 
-    -   Home Page (Nav bar, Hero image, Newletter modal, upcoming concerts, contact us)
-
-    -   Biography Page
+    -   Home Page (Nav bar, Hero image, Newletter form, upcoming concerts, biographies)
 
     -   Gallery Page
 
