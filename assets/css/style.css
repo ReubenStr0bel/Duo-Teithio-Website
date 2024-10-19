@@ -1,4 +1,10 @@
-/* colour scheme */
+/* Colour scheme
+#5D789C - blue
+#EBEBEB - light grey
+#6B9987 - sage green
+#1B2126 - charcoal
+#D4AF37 - metallic gold 
+*/
 
 /* Global styles */
 /* importing Montserrat font */
@@ -8,11 +14,26 @@ body {
     font-family: "montserrat", sans-serif;
 }
 
+/* Nav bar */
+/* Increasing size of title */
+.navbar-brand {
+    font-size: 2rem;
+}
+
+/* Overiding Bootstrap active link styling to make clearer
+which page the user is viewing */
+.navbar-nav li a.active {
+    font-weight: 600 !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 /* Hero image  */
 #hero {
     max-width: 100%;
     height: auto;
-
 }
 
 /* Contact section */
