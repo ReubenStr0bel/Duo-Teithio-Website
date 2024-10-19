@@ -36,6 +36,13 @@ which page the user is viewing */
     height: auto;
 }
 
+/* Events section */
+#events_title {
+    background-color: #6B9987;
+    padding: 15px;
+    color: #EBEBEB;
+}
+
 /* Contact section */
 /* Adding background image to section */
 #contact {
@@ -46,7 +53,7 @@ which page the user is viewing */
 }
 /* Styling header to stand out against background image */
 #contact h2 {
-    color: #fff;
+    color: #EBEBEB;
     /* Removing margin so that the button is vertically alligned properly */
     margin-bottom: 0;
 }
