@@ -8,14 +8,22 @@ body {
     font-family: "montserrat", sans-serif;
 }
 
+/* Hero image  */
+#hero {
+    max-width: 100%;
+    height: auto;
+
+}
+
 /* Contact section */
+/* Adding background image to section */
 #contact {
-    background-image: url("../images/sheet_music.jpg");
+    background-image: url("../images/sheet_music.jpg"); /* Background image from Pexels */
     background-size: cover;
     background-position: 50% 70%;
     padding: 2% 5%;
 }
-
+/* Styling header to stand out against background image */
 #contact h2 {
     color: #fff;
     /* Removing margin so that the button is vertically alligned properly */
