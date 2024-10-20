@@ -36,6 +36,11 @@ which page the user is viewing */
     height: auto;
 }
 
+/* Biography section */
+#bio_image img {
+    overflow: hidden;
+}
+
 /* Events section */
 #events_title {
     background-color: #6B9987;
@@ -46,14 +51,47 @@ which page the user is viewing */
 /* Contact section */
 /* Adding background image to section */
 #contact {
-    background-image: url("../images/sheet_music.jpg"); /* Background image from Pexels */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
     background-size: cover;
     background-position: 50% 70%;
     padding: 2% 5%;
+    min-height: 150px;
 }
+
+#contact .btn {
+    background-color: #1B2126;
+    color: #EBEBEB;
+}
+
+#contact .btn:hover {
+    color:#D4AF37;
+    border: solid 2px #D4AF37;
+}
+
 /* Styling header to stand out against background image */
 #contact h2 {
     color: #EBEBEB;
     /* Removing margin so that the button is vertically alligned properly */
     margin-bottom: 0;
+}
+
+/* Footer section */
+.footer {
+    background-color: #1B2126;
+    height: 100px;
+}
+
+.footer ul {
+    padding: 0px;
+    margin: 0px
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li a {
+    text-decoration: none;
+}
+
+.footer ul li a i {
+    color: #D4AF37;
 }
