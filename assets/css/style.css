@@ -36,9 +36,14 @@ which page the user is viewing */
     height: auto;
 }
 
+/* Biography section */
+#bio_image img {
+    overflow: hidden;
+}
+
 /* Events section */
 #events_title {
-    background-color: #6B9987;
+    background-color: #5D789C;
     padding: 15px;
     color: #EBEBEB;
 }
