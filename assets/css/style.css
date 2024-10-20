@@ -52,8 +52,8 @@ which page the user is viewing */
     color: #EBEBEB;
 }
 
-#events .card {
-    min-height: 475px; /* Setting min-height to length of longest card for uniformity */
+#events .card-body {
+    height: 255px; /* Setting min-height to length of longest card for uniformity */
 }
 
 /* Contact section */
@@ -79,8 +79,6 @@ which page the user is viewing */
 /* Styling header to stand out against background image */
 #contact h2 {
     color: #EBEBEB;
-    /* Removing margin so that the button is vertically alligned properly */
-    margin-bottom: 0;
 }
 
 /* Footer section */
@@ -102,4 +100,31 @@ which page the user is viewing */
 
 .footer ul li a i {
     color: #D4AF37;
+}
+
+/* Media queries */
+/* Making card lengths uniform in events section at various screen sizes*/
+@media only screen and (max-width: 1400px) {
+    #events .card-body {
+        height: 327px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #events .card-body {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #events .card-body {
+        height: auto;
+    }
+}
+
+/* Changing gradient direction since text is on top at this screen size */
+@media only screen and (max-width: 500px) {
+    #contact {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
+    }
 }
