@@ -14,6 +14,10 @@ body {
     font-family: "montserrat", sans-serif;
 }
 
+.top_element {
+    margin-top: 74px; /* Moving top element on page down by height of navbar*/
+}
+
 /* Nav bar */
 /* Increasing size of title */
 .navbar {
@@ -35,7 +39,6 @@ which page the user is viewing */
 
 /* Hero image  */
 #hero {
-    margin-top: 74px; /* Moving image down by height of navbar*/
     max-width: 100%;
     height: auto;
 }
@@ -47,7 +50,7 @@ which page the user is viewing */
 
 /* Events section */
 #events_title {
-    background-color: #5D789C;
+    background-color: #085134;
     padding: 15px;
     color: #EBEBEB;
 }
@@ -61,7 +64,7 @@ which page the user is viewing */
 #contact {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
     background-size: cover;
-    background-position: 50% 70%;
+    background-position: 50% 50%;
     padding: 2% 5%;
     min-height: 150px;
 }
@@ -102,6 +105,20 @@ which page the user is viewing */
     color: #D4AF37;
 }
 
+/* Recordings page */
+#recordings_title {
+    background-image: url(../images/recordings_image.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 2% 5%;
+    min-height: 200px;
+    color: #EBEBEB;
+}
+
+#recordings_title h2 {
+    padding: 100px 0;
+}
+
 /* Media queries */
 /* Making card lengths uniform in events section at various screen sizes*/
 @media only screen and (max-width: 1400px) {
@@ -123,7 +140,7 @@ which page the user is viewing */
 }
 
 /* Changing gradient direction since text is on top at this screen size */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
     #contact {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
     }
