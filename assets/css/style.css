@@ -48,6 +48,10 @@ which page the user is viewing */
     overflow: hidden;
 }
 
+/* #biography p {
+    font-size: 1.2rem;
+} */
+
 /* Events section */
 #events_title {
     background-color: #085134;
@@ -111,12 +115,12 @@ which page the user is viewing */
     background-size: cover;
     background-position: 50% 50%;
     padding: 2% 5%;
-    min-height: 200px;
+    min-height: 350px;
     color: #EBEBEB;
 }
 
-#recordings_title h2 {
-    padding: 100px 0;
+#recordings p {
+    font-size: 1.2rem;
 }
 
 /* Media queries */
@@ -139,9 +143,8 @@ which page the user is viewing */
     }
 }
 
-/* Changing gradient direction since text is on top at this screen size */
 @media only screen and (max-width: 767px) {
-    #contact {
+    #contact { /* Changing gradient direction since text is on top at this screen size */
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
     }
 }
