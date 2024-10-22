@@ -50,7 +50,7 @@ which page the user is viewing */
 
 /* Events section */
 #events_title {
-    background-color: #085134; /* _______________________ review colour ____________________ */
+    background-color: #5D789C; /* _______________________ review colour ____________________ */
     padding: 15px;
     color: #EBEBEB;
 }
@@ -120,19 +120,55 @@ which page the user is viewing */
 }
 
 /* Enquiries page */
+#enquiries .btn {
+    background-color: #212930;
+    border-color: #212930;
+    color: #EBEBEB;
+}
+
+#enquiries .btn:hover {
+    border: solid 1px #EBEBEB;
+}
+
 @media only screen and (max-width: 991px) {
     #enquiries_text {
         /* Dark gradient applied over image for readability */
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../images/enquiries_image.jpg);
         background-size: cover;
         color: #EBEBEB;
-        padding: 100px 5px;
+        padding: 100px 20px;
+        font-size: 1.1rem;
     }
 
     #enquiries_form {
-        background-color: #6B9987;
+        background-color: #5D789C;
         border-radius: 8px;
         padding: 30px;
+        color: #EBEBEB;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #enquiries {
+        background-image: url(../images/enquiries_image.jpg);
+        background-size: cover;
+        position: relative;
+        min-height: 820px;
+    }
+
+    #enquiries_title {
+        color: #EBEBEB;
+    }
+
+    #text_and_form {
+        background-color: rgba(255,255,255,0.5);
+        padding: 12px 0;
+        border-radius: 8px;
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        top: 200px;
+        width: auto;
     }
 }
 
