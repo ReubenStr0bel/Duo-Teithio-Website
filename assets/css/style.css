@@ -2,7 +2,7 @@
 #5D789C - blue
 #EBEBEB - light grey
 #6B9987 - sage green
-#1B2126 - charcoal
+#212930 - charcoal
 #D4AF37 - metallic gold 
 */
 
@@ -48,13 +48,9 @@ which page the user is viewing */
     overflow: hidden;
 }
 
-/* #biography p {
-    font-size: 1.2rem;
-} */
-
 /* Events section */
 #events_title {
-    background-color: #085134;
+    background-color: #085134; /* _______________________ review colour ____________________ */
     padding: 15px;
     color: #EBEBEB;
 }
@@ -74,7 +70,7 @@ which page the user is viewing */
 }
 
 #contact .btn {
-    background-color: #1B2126;
+    background-color: #212930;
     color: #EBEBEB;
 }
 
@@ -90,7 +86,7 @@ which page the user is viewing */
 
 /* Footer section */
 .footer {
-    background-color: #1B2126;
+    background-color: #212930;
     height: 100px;
 }
 
@@ -121,6 +117,23 @@ which page the user is viewing */
 
 #recordings p {
     font-size: 1.2rem;
+}
+
+/* Enquiries page */
+@media only screen and (max-width: 991px) {
+    #enquiries_text {
+        /* Dark gradient applied over image for readability */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../images/enquiries_image.jpg);
+        background-size: cover;
+        color: #EBEBEB;
+        padding: 100px 5px;
+    }
+
+    #enquiries_form {
+        background-color: #6B9987;
+        border-radius: 8px;
+        padding: 30px;
+    }
 }
 
 /* Media queries */
