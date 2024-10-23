@@ -203,6 +203,10 @@ which page the user is viewing */
     border: 2px solid #D4AF37;
 }
 
+.main .bottom_element {
+    margin-bottom: 100px; /* adding extra margin as footer is fixed to the bottom of screen */
+}
+
 /* Media queries */
 /* Making card lengths uniform in events section at various screen sizes*/
 @media only screen and (max-width: 1400px) {
