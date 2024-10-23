@@ -177,6 +177,21 @@ which page the user is viewing */
     height: 87vh;
 }
 
+.main .card-body {
+    min-height: 150px
+}
+
+.main .card .btn {
+    background-color: #212930;
+    border: 2px solid #212930;
+    color: #EBEBEB;
+}
+
+.main .card .btn:hover {
+    color: #D4AF37;
+    border: 2px solid #D4AF37;
+}
+
 /* Media queries */
 /* Making card lengths uniform in events section at various screen sizes*/
 @media only screen and (max-width: 1400px) {
