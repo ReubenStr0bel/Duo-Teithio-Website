@@ -38,21 +38,53 @@
         </nav>
     </header>
 
-    <section class="main">
-        <div class="row text-center">
-            <div class="col-12 top_element">
-                <h1 class="display-3">Page Not Found</h2>
+    <section class="main d-flex align-items-center justify-content-center text-center container">
+        <div class="row">
+            <div class="top_element col-12">
+                <h1 class="display-3 mb-4">Page Not Found</h2>
             </div>
-            <div>
-                <p>
-                    The page you are looking for could not be found
+            <div class="col-12">
+                <p class="mb-4">
+                    The page you are looking for could not be found. You may have been trying to reach one of the pages below.
                 </p>
+            </div>
+            <div class="row">
+                <!-- Bootstrap cards with navigation links to other pages -->
+                <div class="col-12 col-lg-6 col-lg-4">
+                    <div class="card">
+                        <img src="assets/images/hero_image.jpg" class="card-img-top" alt="Duo Teithio">
+                        <div class="card-body">
+                            <p class="card-text">The heart of our website, find the latest updates and links to further information</p>
+                            <a href="index.html" class="btn btn-primary">Home Page</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-lg-4"></div>
+                    <div class="card">
+                        <img src="assets/images/recordings_image.jpg" class="card-img-top" alt="Pianist performing">
+                        <div class="card-body">
+                            <p class="card-text">A gallery with videos of some of our live performances</p>
+                            <a href="index.html" class="btn btn-primary">Recordings</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-lg-4"></div>
+                    <div class="card">
+                        <img src="assets/images/enquiries_image.jpg" class="card-img-top" alt="Saxophonist">
+                        <div class="card-body">
+                            <p class="card-text">Get in touch to book us for your event</p>
+                            <a href="index.html" class="btn btn-primary">Booking Enquiries</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer d-flex align-items-center">
+    <footer class="footer d-flex align-items-center fixed-bottom">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <!-- Social media icons -->
