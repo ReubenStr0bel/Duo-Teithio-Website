@@ -21,7 +21,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 
 ### Design
 #### Colour Scheme
-  ![Colour scheme](./assets/images/colour_scheme.png)
+  ![Colour scheme](./readme_assets/images/colour_scheme.png)
   This colour scheme was chosen to compliment the main hero image and work with a metallic gold colour to be used as a highlight.
 #### Typography
   The Montserrat font is used throughout the website. It is modern and stylish while still being easy to read at smaller sizes. Sans Serif is used as a fall back in case of issues with importing the font into the site.
