@@ -83,6 +83,17 @@ which page the user is viewing */
     color: #EBEBEB;
 }
 
+/* Newsletter section */
+#newsletter {
+    background-image: url(/assets/images/newsletter.jpg);
+    background-size: cover;
+    padding: 2% 5%;
+}
+
+#newsletter h2{
+    color: #EBEBEB
+}
+
 /* Footer section */
 .footer {
     background-color: #212930;
