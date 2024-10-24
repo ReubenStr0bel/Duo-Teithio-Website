@@ -88,10 +88,25 @@ which page the user is viewing */
     background-image: url(/assets/images/newsletter.jpg);
     background-size: cover;
     padding: 2% 5%;
+    min-height: 400px;
+}
+
+#newsletter .row {
+    position: relative;
 }
 
 #newsletter h2{
-    color: #EBEBEB
+    color: #EBEBEB;
+    position: absolute;
+    top: 50%;
+    bottom: 50%
+}
+
+
+#newsletter form {
+    background-color: rbga(255,255,255,0.5);
+    color: #EBEBEB;
+    position: absolute;
 }
 
 /* Footer section */
