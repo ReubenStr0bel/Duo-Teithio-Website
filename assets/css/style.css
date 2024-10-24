@@ -172,7 +172,7 @@ which page the user is viewing */
     }
 }
 
-/* Error 404 page */
+/* Error 404 and form success page */
 .main {
     height: 87vh;
 }
