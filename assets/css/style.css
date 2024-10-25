@@ -17,6 +17,17 @@ body {
     margin-top: 74px; /* Moving top element on page down by height of navbar*/
 }
 
+.dark_button {
+    background-color: #212930;
+    border: solid 2px #212930;
+    color: #EBEBEB;
+}
+
+.dark_button:hover {
+    color:#D4AF37;
+    border: solid 2px #D4AF37;
+    background-color: #212930;
+}
 /* Nav bar */
 /* Increasing size of title */
 .navbar {
@@ -68,16 +79,6 @@ which page the user is viewing */
     min-height: 150px;
 }
 
-#contact .btn {
-    background-color: #212930;
-    color: #EBEBEB;
-}
-
-#contact .btn:hover {
-    color:#D4AF37;
-    border: solid 2px #D4AF37;
-}
-
 /* Styling header to stand out against background image */
 #contact h2 {
     color: #EBEBEB;
@@ -98,15 +99,18 @@ which page the user is viewing */
 #newsletter h2{
     color: #EBEBEB;
     position: absolute;
-    top: 50%;
-    bottom: 50%
+    top: 45%;
+    min-height: 40px; /* For some reason the h2 was displaying with a height of 0px */
 }
 
 
 #newsletter form {
-    background-color: rbga(255,255,255,0.5);
-    color: #EBEBEB;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212930;
     position: absolute;
+    border-radius: 8px;
+    padding: 12px 12px;
+    top: 8%;
 }
 
 /* Footer section */
@@ -217,7 +221,7 @@ which page the user is viewing */
     right: 0;
 }
 
-.main .card .btn {
+/* .main .card .btn {
     background-color: #212930;
     border: 2px solid #212930;
     color: #EBEBEB;
@@ -226,7 +230,7 @@ which page the user is viewing */
 .main .card .btn:hover {
     color: #D4AF37;
     border: 2px solid #D4AF37;
-}
+} */
 
 .main .bottom_element {
     margin-bottom: 100px; /* adding extra margin as footer is fixed to the bottom of screen */
