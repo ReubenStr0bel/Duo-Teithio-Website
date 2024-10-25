@@ -103,7 +103,6 @@ which page the user is viewing */
     min-height: 40px; /* For some reason the h2 was displaying with a height of 0px */
 }
 
-
 #newsletter form {
     background-color: rgba(255, 255, 255, 0.8);
     color: #212930;
