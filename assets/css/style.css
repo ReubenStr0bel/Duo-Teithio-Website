@@ -123,15 +123,23 @@ which page the user is viewing */
     padding: 0px;
     margin: 0px
 }
+
 .footer ul li {
     display: inline-block;
 }
+
 .footer ul li a {
     text-decoration: none;
 }
 
 .footer ul li a i {
     color: #D4AF37;
+}
+
+/* Biography page */
+#biography img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Recordings page */
