@@ -149,16 +149,6 @@ which page the user is viewing */
 }
 
 /* Enquiries page */
-#enquiries .btn {
-    background-color: #212930;
-    border-color: #212930;
-    color: #EBEBEB;
-}
-
-#enquiries .btn:hover {
-    border: solid 1px #EBEBEB;
-}
-
 @media only screen and (max-width: 991px) {
     #enquiries_text {
         /* Dark gradient applied over image for readability */
