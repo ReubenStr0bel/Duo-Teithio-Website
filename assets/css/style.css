@@ -155,6 +155,10 @@ which page the user is viewing */
     font-size: 1.2rem;
 }
 
+#recordings video {
+    max-width: 100%;
+}
+
 /* Enquiries page */
 @media only screen and (max-width: 991px) {
     #enquiries_text {
@@ -217,17 +221,6 @@ which page the user is viewing */
     left: 0;
     right: 0;
 }
-
-/* .main .card .btn {
-    background-color: #212930;
-    border: 2px solid #212930;
-    color: #EBEBEB;
-}
-
-.main .card .btn:hover {
-    color: #D4AF37;
-    border: 2px solid #D4AF37;
-} */
 
 .main .bottom_element {
     margin-bottom: 100px; /* adding extra margin as footer is fixed to the bottom of screen */
