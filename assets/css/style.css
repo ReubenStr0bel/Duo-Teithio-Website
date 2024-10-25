@@ -111,7 +111,7 @@ which page the user is viewing */
 
 /* Newsletter section */
 #newsletter {
-    background-image: url(/assets/images/newsletter.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.4)), url(/assets/images/newsletter.jpg);
     background-size: cover;
     padding: 2% 5%;
     min-height: 400px;
