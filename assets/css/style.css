@@ -69,6 +69,25 @@ which page the user is viewing */
     height: 255px; /* Setting min-height to length of longest card for uniformity */
 }
 
+/* Making card lengths uniform in events section at various screen sizes*/
+@media only screen and (max-width: 1400px) {
+    #events .card-body {
+        height: 327px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #events .card-body {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #events .card-body {
+        height: auto;
+    }
+}
+
 /* Contact section */
 /* Adding background image to section */
 #contact {
@@ -82,6 +101,12 @@ which page the user is viewing */
 /* Styling header to stand out against background image */
 #contact h2 {
     color: #EBEBEB;
+}
+
+@media only screen and (max-width: 767px) {
+    #contact { /* Changing gradient direction since text is on top at this screen size */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
+    }
 }
 
 /* Newsletter section */
@@ -224,30 +249,4 @@ which page the user is viewing */
 
 .main .bottom_element {
     margin-bottom: 100px; /* adding extra margin as footer is fixed to the bottom of screen */
-}
-
-/* Media queries */
-/* Making card lengths uniform in events section at various screen sizes*/
-@media only screen and (max-width: 1400px) {
-    #events .card-body {
-        height: 327px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    #events .card-body {
-        height: 200px;
-    }
-}
-
-@media only screen and (max-width: 990px) {
-    #events .card-body {
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    #contact { /* Changing gradient direction since text is on top at this screen size */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
-    }
 }
