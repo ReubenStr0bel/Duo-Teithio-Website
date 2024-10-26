@@ -95,7 +95,6 @@ which page the user is viewing */
     background-size: cover;
     background-position: 50% 50%;
     padding: 2% 5%;
-    min-height: 150px;
 }
 
 /* Styling header to stand out against background image */
@@ -118,23 +117,19 @@ which page the user is viewing */
 }
 
 #newsletter .row {
-    position: relative;
+    /* position: relative; */
 }
 
 #newsletter h2{
     color: #EBEBEB;
-    position: absolute;
-    top: 45%;
-    min-height: 40px; /* For some reason the h2 was displaying with a height of 0px */
+    /* min-height: 40px; For some reason the h2 was displaying with a height of 0px */
 }
 
 #newsletter form {
     background-color: rgba(255, 255, 255, 0.8);
     color: #212930;
-    position: absolute;
     border-radius: 8px;
     padding: 12px 12px;
-    top: 8%;
 }
 
 /* Footer section */
