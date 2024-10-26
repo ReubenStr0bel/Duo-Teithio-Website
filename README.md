@@ -12,7 +12,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 
 #### Audience Member Goals
   1. Easily find information about upcoming concerts x
-  2. Be able to sign up to a newsletter <------
+  2. Be able to sign up to a newsletter
 
 #### Client Goals
   1. Easily navigate to a booking enquiry form x
@@ -28,27 +28,37 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 #### Imagery
   The main hero image is of Duo Teithio with a gold background and images throughout convey a sense of sophistication as well as showcasing the various instruments played by the duo.
 
-  ### Wireframes
+### Wireframes
 
-    -   Home Page (Nav bar, Hero image, Newletter form, upcoming concerts, biographies)
+  -   Home Page (Nav bar, Hero image, Newletter form, upcoming concerts, biographies)
 
-    -   Gallery Page
+  -   Gallery Page
 
-    -   Booking Enquiry Form Page
+  -   Booking Enquiry Form Page
 
 ## Features
 
-  -   
+  * Responsive layout suitable for all screen sizes
+  * Easily accesible information on the duo and upcoming events
+  * Newsletter sign up form
+  * Gallery with recordings of performances
+  * Contact form to enquire about hiring the duo for events
 
 ## Technologies Used
 
   ### Languages Used
 
-  -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
-  -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+  *   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  *   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
   ### Frameworks, Libraries & Programs Used
-  coolors
+  
+  * Bootstrap V5.3
+  * GitHub and GitPod
+  * GitHub Pages
+  * Coolors.co
+  * Pexels.com
+  
 
 ## Testing
 
