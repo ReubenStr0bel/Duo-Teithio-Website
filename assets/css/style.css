@@ -116,13 +116,8 @@ which page the user is viewing */
     min-height: 400px;
 }
 
-#newsletter .row {
-    /* position: relative; */
-}
-
 #newsletter h2{
     color: #EBEBEB;
-    /* min-height: 40px; For some reason the h2 was displaying with a height of 0px */
 }
 
 #newsletter form {
