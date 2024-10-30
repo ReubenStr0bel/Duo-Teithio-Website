@@ -11,13 +11,13 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 ### User stories
 
 #### Audience Member Goals
-  1. Easily find information about upcoming concerts x
+  1. Easily find information about upcoming concerts
   2. Be able to sign up to a newsletter
 
 #### Client Goals
-  1. Easily navigate to a booking enquiry form x
-  2. View biographical information including performance history <------
-  3. View recorded performances to assess suitability of duo for hire x
+  1. Easily navigate to a booking enquiry form
+  2. View biographical information including performance history
+  3. View recorded performances to assess suitability of duo for hire
 
 ### Design
 #### Colour Scheme
@@ -61,16 +61,88 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   
 
 ## Testing
+  ### Code Validation
+   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+  ### Performance
+   Lighthouse performance screenshot
 
--   Lighthouse performance screenshot
+  ### Responsiveness
+    Screenshots
 
--   Browser compatibility
+<table>
+  <tr>
+    <th colspan="9">Responsiveness</th>
+    <th>Notes</th>
+  </tr>
+  <tr>
+    <td>Device</td>
+    <td>iPhone 12</td>
+    <td>iPhone 14 Pro Max</td>
+    <td>Galaxy S20 Ultra</td>
+    <td>Galaxy S21+</td>
+    <td>iPad air</td>
+    <td>iPad Pro</td>
+    <td>Desktop 1024px</td>
+    <td>Desktop >1200px</td>
+    <td>Notes</td>
+  </tr>
+  <tr>
+    <td>Links work</td>
+  </tr>
+  <tr>
+    <td>Images work</td>
+  </tr>
+  <tr>
+    <td>Renders as expected</td>
+  </tr>
+</table>
+  
+  ### Browser compatibility
+<table>
+  <tr>
+    <th colspan="6">Browser Compatibility</th>
+    <th>Notes</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Chrome</td>
+    <td>Edge</td>
+    <td>Firefox</td>
+    <td>Safari</td>
+    <td>Opera</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Appearance</td>
+    <td>Chrome</td>
+    <td>Edge</td>
+    <td>Firefox</td>
+    <td>Safari</td>
+    <td>Opera</td>
+    <td>Notes</td>
+  </tr>
+  <tr>
+    <td>Responsiveness</td>
+    <td>Chrome</td>
+    <td>Edge</td>
+    <td>Firefox</td>
+    <td>Safari</td>
+    <td>Opera</td>
+    <td>Notes</td>
+  </tr>
+</table>
 
--   Responsiveness from 320px to 1400px
-  ### Testing User Stories from User Experience (UX) Section
+  ### User Stories
+  #### Audience Member Goals
+  1. Easily find information about upcoming concerts
+  2. Be able to sign up to a newsletter
+
+#### Client Goals
+  1. Easily navigate to a booking enquiry form
+  2. View biographical information including performance history
+  3. View recorded performances to assess suitability of duo for hire
 
   ### Further Testing
 

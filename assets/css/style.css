@@ -156,6 +156,10 @@ which page the user is viewing */
     height: auto;
 }
 
+#biography p {
+    font-size: 1.1rem;
+}
+
 /* Recordings page */
 #recordings_title {
     background-image: url(../images/recordings_image.jpg);
