@@ -109,8 +109,8 @@ which page the user is viewing */
 }
 
 /* Newsletter section */
-#newsletter {
-    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.4)), url(/assets/images/newsletter.jpg);
+#newsletter { 
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.4)), url(/assets/images/newsletter.jpg); /* Image from Madison Inouye on Pexels */
     background-size: cover;
     padding: 2% 5%;
     min-height: 400px;
@@ -168,11 +168,6 @@ which page the user is viewing */
 
 #recordings p {
     font-size: 1.2rem;
-}
-
-#recordings iframe {
-    max-width: 100%;
-    height: auto;
 }
 
 /* Enquiries page */
