@@ -84,6 +84,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   ### Code Validation
    [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
    [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+   [Wave Accessibility Evaluation](https://wave.webaim.org/)
 
   ### Performance
    Lighthouse performance screenshot
@@ -163,8 +164,6 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   1. Easily navigate to a booking enquiry form
   2. View biographical information including performance history
   3. View recorded performances to assess suitability of duo for hire
-
-  ### Further Testing
 
   ### Known Bugs
 
