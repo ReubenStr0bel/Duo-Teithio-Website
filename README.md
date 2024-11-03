@@ -101,35 +101,15 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   ### Responsiveness
 
   The following devices were tested for responsiveness:
-  
-<table>
-  <tr>
-    <th colspan="9">Responsiveness</th>
-    <th>Notes</th>
-  </tr>
-  <tr>
-    <td>Device</td>
-    <td>iPhone 12</td>
-    <td>iPhone 14 Pro Max</td>
-    <td>Galaxy S20 Ultra</td>
-    <td>Galaxy S21+</td>
-    <td>iPad air</td>
-    <td>iPad Pro</td>
-    <td>Desktop 1024px</td>
-    <td>Desktop >1200px</td>
-    <td>Notes</td>
-  </tr>
-  <tr>
-    <td>Links work</td>
-  </tr>
-  <tr>
-    <td>Images work</td>
-  </tr>
-  <tr>
-    <td>Renders as expected</td>
-  </tr>
-</table>
-  
+  | Device            | Notes      |
+  | iPhone 12 Pro     | Display of text on some pages, particularly on the biography page, gets a little bit too long on the small screen size |
+  | iPhone 14 Pro Max | Same as above |
+  | Galaxy S20 Ultra  | Same as above |
+  | iPad air          | Fix: Images weren't displaying in the center of the page at this screen size on the biography page |
+  | iPad Pro          |            |
+  | Desktop 1024px    |            |
+  | Desktop >1200px   |            |
+
   ### Browser compatibility
 <table>
   <tr>
@@ -137,31 +117,31 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
     <th>Notes</th>
   </tr>
   <tr>
-    <td></td>
-    <td>Chrome</td>
-    <td>Edge</td>
-    <td>Firefox</td>
-    <td>Safari</td>
-    <td>Opera</td>
-    <td></td>
+    ||
+    |Chrome|
+    |Edge|
+    |Firefox|
+    |Safari|
+    |Opera|
+    ||
   </tr>
   <tr>
-    <td>Appearance</td>
-    <td>Chrome</td>
-    <td>Edge</td>
-    <td>Firefox</td>
-    <td>Safari</td>
-    <td>Opera</td>
-    <td>Notes</td>
+    |Appearance|
+    |Chrome|
+    |Edge|
+    |Firefox|
+    |Safari|
+    |Opera|
+    |Notes|
   </tr>
   <tr>
-    <td>Responsiveness</td>
-    <td>Chrome</td>
-    <td>Edge</td>
-    <td>Firefox</td>
-    <td>Safari</td>
-    <td>Opera</td>
-    <td>Notes</td>
+    |Responsiveness|
+    |Chrome|
+    |Edge|
+    |Firefox|
+    |Safari|
+    |Opera|
+    |Notes|
   </tr>
 </table>
 
