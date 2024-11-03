@@ -87,11 +87,21 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
    [Wave Accessibility Evaluation](https://wave.webaim.org/)
 
   ### Performance
-   Lighthouse performance screenshot
-
+  
+  #### Home Page
+  ![Lighthouse Screenshot](./readme_assets/images/index_performance.png)
+  #### Biography Page
+  ![Lighthouse Screenshot](./readme_assets/images/biography_performance.png)
+  #### Recordings Page
+  ![Lighthouse Screenshot](./readme_assets/images/recordings_performance.png)
+  The best practices rating for this page leave a little to be desired. The reason for the low score is that including iframes to YouTube causes the use of cookies from YouTube's site, leading to a low rating. Iframes were chosen over including the videos on the site itself due to the large file size of the videos.
+  #### Booking Enquiry Page
+  ![Lighthouse Screenshot](./readme_assets/images/booking_enquiry_performance.png)
+ 
   ### Responsiveness
-    Screenshots
 
+  The following devices were tested for responsiveness:
+  
 <table>
   <tr>
     <th colspan="9">Responsiveness</th>
