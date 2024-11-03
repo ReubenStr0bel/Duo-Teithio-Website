@@ -58,7 +58,10 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 
 ### Wireframes
 
-[]
+  * [Home Page](https://github.com/ReubenStr0bel/Duo-Teithio-Website/blob/main/readme_assets/images/index_wireframe.png)
+  * [Biography Page](https://github.com/ReubenStr0bel/Duo-Teithio-Website/blob/main/readme_assets/images/biography_wireframe.png)
+  * [Recordings Page](https://github.com/ReubenStr0bel/Duo-Teithio-Website/blob/main/readme_assets/images/recordings_wireframe.png)
+  * [Booking Enquiries Page](https://github.com/ReubenStr0bel/Duo-Teithio-Website/blob/main/readme_assets/images/contact_wireframe.png)
 
 ## Technologies Used
 
@@ -70,10 +73,11 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   ### Frameworks, Libraries & Programs Used
   
   * Bootstrap V5.3
-  * GitHub and GitPod
-  * GitHub Pages
-  * Coolors.co
-  * Pexels.com
+  * GitHub and GitPod for development
+  * GitHub Pages for deployment
+  * Coolors.co to help generate the colour scheme
+  * Pexels.com to source some of the images used (credited within the code)
+  * Favicon.io to generate the favicon
   
 
 ## Testing
