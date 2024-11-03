@@ -19,30 +19,46 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   2. View biographical information including performance history
   3. View recorded performances to assess suitability of duo for hire
 
-### Design
-#### Colour Scheme
+## Pages and Features
+### Universal Features
+
+  * Navigation bar: featured at the top on all pages. Has hover and active link effects to make it clear which page the user is on or clicking onto. On smaller page sizes the nav bar changes to feature a burger icon with a drop down menu. The nav bar sticks to the top of the screen when scrolled so that the navigation elements are always accessible.
+  * Footer: The footer features links to social media pages for the duo. The facebook link goes to the generic Facebook homepage as there is no Duo Teithio home page currently. These external links open in a new tab for improved user experience.
+  * Error 404 page: A page to display in case a URL is typed incorrectly that will redirect the user to important sections of the website.
+
+### Home Page 
+
+  * Hero image: Catches the user's eye and immediately introduces the two members of the duo to the user, making it clear what the website is about.
+  * Biography section: A section with a brief biography of the duo, introducing the most important aspects of the duo's performance style.
+  * Upcoming Events section: A section to show information about future events or concerts, displayed in cards with a responsive layout. If the duo wanted to allow for event booking on their page or link to a website selling concert tickets a button could be included on this card.
+  * Call to Action: A small section with a background image spanning the whole width of the page to draw attention. This acts as a call to action to visit the booking enquiries page.
+  * Mailing List section: A form to join the Duo Teithio mailing list. This form redirects the user to a confirmation page once completed.
+
+### Biography Page
+
+  * Individual biographies: Some text giving biographical details of each musician and their experience and training.
+  * Individual pictures: Images in the same style as the header but of each musician separately.
+
+### Recordings page
+
+  * Recording gallery: Videos of live performances given by the duo. These videos will also link to the duo's YouTube channel.
+
+### Booking Enquiries page
+
+  * Contact form: a form to submit an enquiry to hire the duo. This links to a confirmation page when completed.
+
+## Design
+### Colour Scheme
   ![Colour scheme](./readme_assets/images/colour_scheme.png)
   This colour scheme was chosen to compliment the main hero image and work with a metallic gold colour to be used as a highlight.
-#### Typography
+### Typography
   The Montserrat font is used throughout the website. It is modern and stylish while still being easy to read at smaller sizes. Sans Serif is used as a fall back in case of issues with importing the font into the site.
-#### Imagery
+### Imagery
   The main hero image is of Duo Teithio with a gold background and images throughout convey a sense of sophistication as well as showcasing the various instruments played by the duo.
 
 ### Wireframes
 
-  -   Home Page (Nav bar, Hero image, Newletter form, upcoming concerts, biographies)
-
-  -   Gallery Page
-
-  -   Booking Enquiry Form Page
-
-## Features
-
-  * Responsive layout suitable for all screen sizes
-  * Easily accesible information on the duo and upcoming events
-  * Newsletter sign up form
-  * Gallery with recordings of performances
-  * Contact form to enquire about hiring the duo for events
+[]
 
 ## Technologies Used
 
