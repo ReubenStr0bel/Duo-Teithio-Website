@@ -105,8 +105,8 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   | iPhone 12 Pro     | Display of text on some pages, particularly on the biography page, gets a little bit too long on the small screen size |
   | iPhone 14 Pro Max | Same as above |
   | Galaxy S20 Ultra  | Same as above |
-  | iPad air          | Fix: Images weren't displaying in the center of the page at this screen size on the biography page |
-  | iPad Pro          |            |
+  | iPad air          | Issue: Images weren't displaying in the center of the page at this screen size on the biography page |
+  | iPad Pro          | Issue: The image in the home page biography section was too small, with text displaying in a very narrow portion of the screen. I adjusted the bootstrap column classes to change at an xl screen size instead of lg |
   | Desktop 1024px    |            |
   | Desktop >1200px   |            |
 
