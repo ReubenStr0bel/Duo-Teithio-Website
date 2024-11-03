@@ -49,6 +49,7 @@ which page the user is viewing */
 
 /* Hero image  */
 #hero {
+    width: 100%;
     max-width: 100%;
     height: auto;
 }

@@ -136,7 +136,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 
   ### User Stories
   #### Audience Member Goals
-  1. Easily find information about upcoming concerts
+  1. Easily find the information about upcoming concerts
   2. Be able to sign up to a newsletter
 
 #### Client Goals
