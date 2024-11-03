@@ -54,11 +54,6 @@ which page the user is viewing */
     height: auto;
 }
 
-/* Biography section */
-#bio_image img {
-    overflow: hidden;
-}
-
 /* Events section */
 #events_title {
     background-color: #5D789C;
@@ -94,7 +89,6 @@ which page the user is viewing */
 #contact {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../images/sheet_music.jpg"); /* Background image from Pexels */
     background-size: cover;
-    background-position: 50% 50%;
     padding: 2% 5%;
 }
 
@@ -165,7 +159,7 @@ which page the user is viewing */
 #recordings_title {
     background-image: url(../images/recordings_image.jpg);
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 60%;
     padding: 2% 5%;
     min-height: 350px;
     color: #EBEBEB;
