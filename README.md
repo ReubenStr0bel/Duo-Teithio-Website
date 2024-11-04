@@ -1,6 +1,6 @@
 <h1 align="center">Duo Teithio Website</h1>
 
-Add link to project once deployed
+[Link to the live project](https://reubenstr0bel.github.io/Duo-Teithio-Website/index.html)
 
 Duo Teithio is a classical ensemble of two members who need a website to communicate information with audience members and provide a method to enquire about bookings. Potential clients will be able to view biographical information, a gallery of performance recordings, and sign up to a newsletter. For organisations such as concert venues or booking agents, the website should showcase the duo's performance style, professionalism, and performance experience. 
 
@@ -91,13 +91,11 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   |------|--------|
   | Home Page | No errors or warnings |
   | Biography Page | No errors or warnings |
-  | Recordings Page | Fixed: removed frameborder attribute from iframes as this is obsolete, changed sections to divs as the title is in a separate section from the content and as such the second section had no heading. No errors or warnings when tested after changes |
+  | Recordings Page | Fixed: removed frameborder attribute from iframes as this is obsolete, changed sections to divs as the title is in a separate section from the content and as such the second section had no heading. No errors or warnings when tested after changes. |
   | Booking Enquiries Page | No errors or warnings |
   | Form Confirmation Page | No errors or warnings |
   | Error 404 Page | No errors or warnings |
   
-  [Wave Accessibility Evaluation](https://wave.webaim.org/)
-
   ### Performance
   #### Home Page
   ![Lighthouse Screenshot](./readme_assets/images/index_performance.png)
@@ -105,6 +103,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   ![Lighthouse Screenshot](./readme_assets/images/biography_performance.png)
   #### Recordings Page
   ![Lighthouse Screenshot](./readme_assets/images/recordings_performance.png)
+  
   The best practices rating for this page leave a little to be desired. The reason for the low score is that including iframes to YouTube causes the use of cookies from YouTube's site, leading to a low rating. Iframes were chosen over including the videos on the site itself due to the large file size of the videos.
   #### Booking Enquiry Page
   ![Lighthouse Screenshot](./readme_assets/images/booking_enquiry_performance.png)
@@ -122,43 +121,56 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   | Desktop 1280px    | No issues |
   | Desktop 1920px    | No Issues |
 
-  ### Browser compatibility
-  | Browser | Notes |
-  |---------|-------|
-  | Chrome  |       |
-  | Edge    |       |
-  | Firefox |       |
-  | Safari  |       |
-  | Opera   |       |
-  
-
   ### User Stories
   #### Audience Member Goals
-  1. Easily find the information about upcoming concerts
+  1. Easily find information about upcoming concerts
+
+  ![Upcoming events section](./readme_assets/images/concert_info.png)
+  This section on the home page includes details of upcoming concerts and cruises. This could be improved by having links to separate pages for each event with further info and booking capabilities.
+  
   2. Be able to sign up to a newsletter
 
-#### Client Goals
-1. Easily navigate to a booking enquiry form
-2. View biographical information including performance history
-3. View recorded performances to assess suitability of duo for hire
+  ![Newsletter signup form](./readme_assets/images/newsletter_form.png)
+
+  #### Client Goals
+  1. Easily navigate to a booking enquiry form
+
+  ![Booking enquiry call to action](./readme_assets/images/booking_navigation.png)
+  In addition to the nav bar at the top of the page, this section acts as a call to action to direct the user to the booking enquiry page.
+  
+  2. View biographical information including performance history
+
+  ![Duo biography](./readme_assets/images/duo_biography.png)
+  In addition to individual biographies of each performer on the biography page, this section of the home page includes information about the performance history and style of the ensemble.
+  
+  3. View recorded performances to assess suitability of duo for hire
+
+  ![Recording gallery](./readme_assets/images/recording_gallery.png)
+  In addition to videos of performances, this page includes information about the style of music performed by the duo. In the future this could also include professional recordings.
 
 ### Known Bugs
-* Some of the images don't display
+* Images not displaying correctly on deployed version
 
 ## Deployment
 
   ### GitHub Pages
+  The website was deployed to GitHub Pages using the following steps:
+  1. Navigate to the Duo Teithio repository
+  2. Go to the settings tab (right hand side of the menu)
+  3. Under 'Code and automation' click 'Pages' at the bottom
+  4. Under 'Build and deployment' select 'Deploy from a branch' as the source
+  5. Under 'Branch' select 'Main' and set the folder to '/root' then save
 
 ## Credits
 
   ### Code
-  Any code taken from external sources
+  I frequently referenced documentation from Bootstrap v5.3 and included a number of Bootstrap elements in my code. These are referenced with comments. I also referred to documentation from W3Schools for both my HTML and CSS code to ensure I used correct syntax.
 
   ### Content
-  Acknowledgement of who wrote content
+  Content was written by the members of Duo Teithio.
 
   ### Media
-  Where images were sourced
+  Apart from images of the duo all images come from Pexels.com, with sources attributed in the code.
 
   ### Acknowledgements
-  Thank mentor/tutor support etc
+  Many thanks to the support of my mentor Spencer Barriball for his assistance and invaluable advice.
