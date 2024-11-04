@@ -1,10 +1,10 @@
 <h1 align="center">Duo Teithio Website</h1>
 
-[Link to the live project](https://reubenstr0bel.github.io/Duo-Teithio-Website/index.html)
+![Responsive Layout](./readme_assets/images/responsive_layout.png)
 
 Duo Teithio is a classical ensemble of two members who need a website to communicate information with audience members and provide a method to enquire about bookings. Potential clients will be able to view biographical information, a gallery of performance recordings, and sign up to a newsletter. For organisations such as concert venues or booking agents, the website should showcase the duo's performance style, professionalism, and performance experience. 
 
-(Add image of final webpage on various screen sizes)
+[Link to the live project](https://reubenstr0bel.github.io/Duo-Teithio-Website/index.html)
 
 ## User Experience (UX)
 
@@ -148,11 +148,12 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   ![Recording gallery](./readme_assets/images/recording_gallery.png)
   In addition to videos of performances, this page includes information about the style of music performed by the duo. In the future this could also include professional recordings.
 
-### Known Bugs
-* Images not displaying correctly on deployed version
+### Bug Fixing
+After being deployed, a few of the images weren't being displayed. Despite working correctly in the local version, the file paths needed to be updated to work correctly in the deployed version.
+There are currently no known bugs in this project.
 
 ## Deployment
-Add bit about how it was made on GitHub
+  This project was developed in GitPod, regularly committed and pushed to GitHub and then deployed to GitHub pages.
 
   ### GitHub Pages
   The website was deployed to GitHub Pages using the following steps:
