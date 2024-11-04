@@ -82,12 +82,24 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 
 ## Testing
   ### Code Validation
-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-   [Wave Accessibility Evaluation](https://wave.webaim.org/)
+  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+  ![CSS validation result](./readme_assets/images/css_validation.png)
+
+  [W3C HTML Validator](https://validator.w3.org/)
+  | Page | Result |
+  |------|--------|
+  | Home Page | No errors found |
+  | Biography Page | No errors found |
+  | Recordings Page | No errors found |
+  | Booking Enquiries Page | No errors found |
+  | Form Confirmation Page |  |
+  | Error 404 Page | No errors found |
+
+  
+  [Wave Accessibility Evaluation](https://wave.webaim.org/)
 
   ### Performance
-  
   #### Home Page
   ![Lighthouse Screenshot](./readme_assets/images/index_performance.png)
   #### Biography Page
@@ -102,48 +114,24 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 
   The following devices were tested for responsiveness:
   | Device            | Notes      |
+  |-------------------|------------|
   | iPhone 12 Pro     | Display of text on some pages, particularly on the biography page, gets a little bit too long on the small screen size |
   | iPhone 14 Pro Max | Same as above |
   | Galaxy S20 Ultra  | Same as above |
-  | iPad air          | Issue: Images weren't displaying in the center of the page at this screen size on the biography page |
-  | iPad Pro          | Issue: The image in the home page biography section was too small, with text displaying in a very narrow portion of the screen. I adjusted the bootstrap column classes to change at an xl screen size instead of lg |
-  | Desktop 1024px    |            |
-  | Desktop >1200px   |            |
+  | iPad air          | Fixed: Images weren't displaying in the center of the page at this screen size on the biography page |
+  | iPad Pro          | Fixed: The image in the home page biography section was too small, with text displaying in a very narrow portion of the screen. I adjusted the bootstrap column classes to change at an xl screen size instead of lg |
+  | Desktop 1280px    | No issues, possibly the most optimal screen size to view the website at |
+  | Desktop 1920px    | No Issues |
 
   ### Browser compatibility
-<table>
-  <tr>
-    <th colspan="6">Browser Compatibility</th>
-    <th>Notes</th>
-  </tr>
-  <tr>
-    ||
-    |Chrome|
-    |Edge|
-    |Firefox|
-    |Safari|
-    |Opera|
-    ||
-  </tr>
-  <tr>
-    |Appearance|
-    |Chrome|
-    |Edge|
-    |Firefox|
-    |Safari|
-    |Opera|
-    |Notes|
-  </tr>
-  <tr>
-    |Responsiveness|
-    |Chrome|
-    |Edge|
-    |Firefox|
-    |Safari|
-    |Opera|
-    |Notes|
-  </tr>
-</table>
+  | Browser | Notes |
+  |---------|-------|
+  | Chrome  |       |
+  | Edge    |       |
+  | Firefox |       |
+  | Safari  |       |
+  | Opera   |       |
+  
 
   ### User Stories
   #### Audience Member Goals
@@ -151,19 +139,16 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   2. Be able to sign up to a newsletter
 
 #### Client Goals
-  1. Easily navigate to a booking enquiry form
-  2. View biographical information including performance history
-  3. View recorded performances to assess suitability of duo for hire
+1. Easily navigate to a booking enquiry form
+2. View biographical information including performance history
+3. View recorded performances to assess suitability of duo for hire
 
-  ### Known Bugs
+### Known Bugs
+* Background image on home page contact form section doesn't work
 
 ## Deployment
 
   ### GitHub Pages
-
-  ### Forking the GitHub Repository
-
-  ### Making a Local Clone
 
 ## Credits
 
