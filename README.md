@@ -152,6 +152,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 * Images not displaying correctly on deployed version
 
 ## Deployment
+Add bit about how it was made on GitHub
 
   ### GitHub Pages
   The website was deployed to GitHub Pages using the following steps:
