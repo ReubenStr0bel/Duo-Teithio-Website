@@ -89,13 +89,12 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   [W3C HTML Validator](https://validator.w3.org/)
   | Page | Result |
   |------|--------|
-  | Home Page | No errors found |
-  | Biography Page | No errors found |
-  | Recordings Page | No errors found |
-  | Booking Enquiries Page | No errors found |
-  | Form Confirmation Page |  |
-  | Error 404 Page | No errors found |
-
+  | Home Page | No errors or warnings |
+  | Biography Page | No errors or warnings |
+  | Recordings Page | Fixed: removed frameborder attribute from iframes as this is obsolete, changed sections to divs as the title is in a separate section from the content and as such the second section had no heading. No errors or warnings when tested after changes |
+  | Booking Enquiries Page | No errors or warnings |
+  | Form Confirmation Page | No errors or warnings |
+  | Error 404 Page | No errors or warnings |
   
   [Wave Accessibility Evaluation](https://wave.webaim.org/)
 
@@ -120,7 +119,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
   | Galaxy S20 Ultra  | Same as above |
   | iPad air          | Fixed: Images weren't displaying in the center of the page at this screen size on the biography page |
   | iPad Pro          | Fixed: The image in the home page biography section was too small, with text displaying in a very narrow portion of the screen. I adjusted the bootstrap column classes to change at an xl screen size instead of lg |
-  | Desktop 1280px    | No issues, possibly the most optimal screen size to view the website at |
+  | Desktop 1280px    | No issues |
   | Desktop 1920px    | No Issues |
 
   ### Browser compatibility
@@ -144,7 +143,7 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 3. View recorded performances to assess suitability of duo for hire
 
 ### Known Bugs
-* Background image on home page contact form section doesn't work
+* Some of the images don't display
 
 ## Deployment
 
