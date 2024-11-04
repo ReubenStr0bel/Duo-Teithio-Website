@@ -173,7 +173,7 @@ which page the user is viewing */
 @media only screen and (max-width: 991px) {
     #enquiries_text {
         /* Dark gradient applied over image for readability */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../images/enquiries_image.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../images/enquiries_image.jpg);
         background-size: cover;
         color: #EBEBEB;
         padding: 100px 20px;
