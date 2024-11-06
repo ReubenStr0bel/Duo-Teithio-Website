@@ -152,6 +152,9 @@ Duo Teithio is a classical ensemble of two members who need a website to communi
 After being deployed, a few of the images weren't being displayed. Despite working correctly in the local version, the file paths needed to be updated to work correctly in the deployed version.
 There are currently no known bugs in this project.
 
+### Future Features
+As this project was created only with HTML and CSS, some of the features are limited. For example, the booking enquiry form allows a date in the past to be entered. This could easily be resolved with the addition of Java Script to the project. Additionally, the forms are currently not functional and only redirect the user to the confirmation page. If this site were to be used for professional purposes by the duo, there would need to be a database which user details would be saved to for these forms to be useful features.
+
 ## Deployment
   This project was developed in GitPod, regularly committed and pushed to GitHub and then deployed to GitHub pages.
 
